@@ -1,170 +1,41 @@
-📘 Curso de Java Básico – Preparatório para Spring Boot
-
-Objetivo: Ensinar os fundamentos essenciais do Java para que o aluno consiga evoluir posteriormente para Java Web e Spring Boot.
-
-📚 Sumário das Aulas
-1. Introdução ao Java
-
-O que é Java e para que serve
-
-JDK, JRE e JVM
-
-Como o código Java é executado
-
-Instalação do Java e configuração do ambiente
-
-Primeiro programa: Hello World
-
-2. Sintaxe Básica
-
-Estrutura de um programa Java
-
-Comentários
-
-Identificadores e convenções de nome
-
-Tipos primitivos
-
-Variáveis e constantes
-
-Operadores (aritméticos, relacionais, lógicos, atribuição, incremento)
-
-3. Estruturas de Controle
-
-if, else if, else
-
-switch
-
-Laços de repetição: for, while, do-while
-
-break e continue
-
-4. Manipulação de Strings
-
-Classe String
-
-Métodos essenciais (length, substring, replace, etc.)
-
-Imutabilidade
-
-StringBuilder e StringBuffer
-
-5. Arrays e Coleções
-
-Arrays
-
-Arrays multidimensionais
-
-Introdução às Collections
-
-List, Set, Map
-
-Laço for-each
-
-6. POO – Conceitos Fundamentais
-
-O que é Programação Orientada a Objetos
-
-Classes e objetos
-
-Atributos
-
-Métodos
-
-Construtores
-
-Encapsulamento (getters e setters)
-
-Palavra-chave this
-
-7. POO – Herança, Polimorfismo e Sobrecarga
-
-Herança
-
-super
-
-Sobrescrita de métodos
-
-Sobrecarga de métodos
-
-Polimorfismo
-
-8. Interfaces e Classes Abstratas
-
-Diferença entre interfaces e classes abstratas
-
-Implementação de interfaces
-
-Uso real no ecossistema Java e no Spring Boot
-
-9. Modificadores de Acesso e Pacotes
-
-public, private, protected e padrão
-
-Organização em pacotes
-
-Importação de classes
-
-Estrutura de projeto
-
-10. Tratamento de Exceções
-
-Tipos de exceções
-
-try, catch, finally
-
-throw e throws
-
-Exceções personalizadas
-
-11. Arquivos e IO Básico
-
-Leitura de arquivos
-
-Escrita de arquivos
-
-Classes: File, FileReader, BufferedReader, FileWriter, BufferedWriter
-
-Introdução ao java.nio
-
-12. Coleções Avançadas e Generics
-
-Introdução a Generics
-
-Listas, Mapas e Sets em detalhes
-
-Iterators
-
-Ordenação com Comparable e Comparator
-
-13. Java API Essentials
-
-Classe Math
-
-Datas com LocalDate e LocalDateTime
-
-Optional
-
-Enums
-
-14. Introdução a Testes Unitários
-
-JUnit básico
-
-Criando os primeiros testes
-
-Assertivas principais
-
-Por que testes são importantes em aplicações Spring Boot
-
-15. Preparação para Spring Boot
-
-O que é Maven (estrutura e dependências)
-
-O que é um framework
-
-Conceitos essenciais: IoC e DI
-
-Arquitetura MVC
-
-Como os conhecimentos do curso serão aplicados no Spring Boot
+# 📘 Curso Java Básico – Preparatório para Spring Boot
+
+> Um curso passo-a-passo para quem está começando do zero com Java e pretende avançar para Spring Boot.
+
+## 🎯 Objetivo  
+Ensinar os fundamentos essenciais da linguagem Java para que o aluno esteja preparado para transicionar para desenvolvimento com Spring Boot, aplicando conceitos de POO, sintaxe, estruturas de controle, coleções, tratamento de exceções, IO, e boas práticas.
+
+## 📚 Sumário das Aulas
+
+1. [Introdução ao Java](aulas/aula01-introducao-ao-java.md)  
+2. [Sintaxe Básica](aulas/aula02-sintaxe-basica.md)  
+3. [Estruturas de Controle](aulas/aula03-estruturas-de-controle.md)  
+4. [Manipulação de Strings](aulas/aula04-strings.md)  
+5. [Arrays e Coleções](aulas/aula05-arrays-colecoes.md)  
+6. [POO – Conceitos Fundamentais](aulas/aula06-poo-fundamentos.md)  
+7. [POO – Herança, Polimorfismo e Sobrecarga](aulas/aula07-poo-avancado.md)  
+8. [Interfaces e Classes Abstratas](aulas/aula08-interfaces-abstratas.md)  
+9. [Modificadores de Acesso e Pacotes](aulas/aula09-acesso-pacotes.md)  
+10. [Tratamento de Exceções](aulas/aula10-excecoes.md)  
+11. [Arquivos e IO Básico](aulas/aula11-arquivos-io.md)  
+12. [Coleções Avançadas e Generics](aulas/aula12-colecoes-generics.md)  
+13. [Java API Essentials](aulas/aula13-api-essentials.md)  
+14. [Introdução a Testes Unitários](aulas/aula14-testes-unitarios.md)  
+15. [Preparação para Spring Boot](aulas/aula15-preparacao-spring.md)
+
+---
+
+## 🛠️ Requisitos / Pré-requisitos
+
+- Java JDK 17+ instalado  
+- Editor de código ou IDE: VS Code, IntelliJ IDEA, Eclipse, etc.  
+- Git  
+- (Para depois) Maven instalado — facilita a migração para projetos Spring Boot  
+
+---
+
+## 🚀 Como Rodar os Exemplos / Exercícios
+
+1. Clone o repositório  
+   ```bash
+   git clone https://github.com/vinicyusrs/curso_java_basico.git
