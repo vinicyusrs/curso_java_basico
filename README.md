@@ -7,21 +7,61 @@ Ensinar os fundamentos essenciais da linguagem Java para que o aluno esteja prep
 
 ## 📚 Sumário das Aulas
 
-1. [Introdução ao Java](aulas/aula01-introducao-ao-java.md)  
-2. [Sintaxe Básica](aulas/aula02-sintaxe-basica.md)  
-3. [Estruturas de Controle](aulas/aula03-estruturas-de-controle.md)  
-4. [Manipulação de Strings](aulas/aula04-strings.md)  
-5. [Arrays e Coleções](aulas/aula05-arrays-colecoes.md)  
-6. [POO – Conceitos Fundamentais](aulas/aula06-poo-fundamentos.md)  
-7. [POO – Herança, Polimorfismo e Sobrecarga](aulas/aula07-poo-avancado.md)  
-8. [Interfaces e Classes Abstratas](aulas/aula08-interfaces-abstratas.md)  
-9. [Modificadores de Acesso e Pacotes](aulas/aula09-acesso-pacotes.md)  
-10. [Tratamento de Exceções](aulas/aula10-excecoes.md)  
-11. [Arquivos e IO Básico](aulas/aula11-arquivos-io.md)  
-12. [Coleções Avançadas e Generics](aulas/aula12-colecoes-generics.md)  
-13. [Java API Essentials](aulas/aula13-api-essentials.md)  
-14. [Introdução a Testes Unitários](aulas/aula14-testes-unitarios.md)  
-15. [Preparação para Spring Boot](aulas/aula15-preparacao-spring.md)
+### 1. **Aula 01 – Introdução ao Java**
+- [HelloWorld.java](src/aula01/HelloWorld.java)
+- [Comentarios.java](src/aula01/Comentarios.java)
+
+### 2. **Aula 02 – Sintaxe Básica**
+- [Variaveis.java](src/aula02/Variaveis.java)
+- [Operadores.java](src/aula02/Operadores.java)
+- [EntradaSaida.java](src/aula02/EntradaSaida.java)
+
+### 3. **Aula 03 – Estruturas de Controle**
+- [Condicionais.java](src/aula03/Condicionais.java)
+- [Repeticoes.java](src/aula03/Repeticoes.java)
+
+### 4. **Aula 04 – Strings**
+- [ManipulacaoStrings.java](src/aula04/ManipulacaoStrings.java)
+
+### 5. **Aula 05 – Arrays e Coleções**
+- [Arrays.java](src/aula05/Arrays.java)
+- [Listas.java](src/aula05/Listas.java)
+- [Mapas.java](src/aula05/Mapas.java)
+
+### 6. **Aula 06 – POO – Fundamentos**
+- [ClassesObjetos.java](src/aula06/ClassesObjetos.java)
+- [Construtores.java](src/aula06/Construtores.java)
+
+### 7. **Aula 07 – POO Avançado**
+- [Heranca.java](src/aula07/Heranca.java)
+- [Polimorfismo.java](src/aula07/Polimorfismo.java)
+
+### 8. **Aula 08 – Interfaces e Classes Abstratas**
+- [Interfaces.java](src/aula08/Interfaces.java)
+- [ClassesAbstratas.java](src/aula08/ClassesAbstratas.java)
+
+### 9. **Aula 09 – Modificadores de Acesso e Pacotes**
+- [Pacotes.java](src/aula09/Pacotes.java)
+
+### 10. **Aula 10 – Exceções**
+- [TratamentoExcecoes.java](src/aula10/TratamentoExcecoes.java)
+
+### 11. **Aula 11 – Arquivos e IO**
+- [ArquivosIO.java](src/aula11/ArquivosIO.java)
+
+### 12. **Aula 12 – Generics & Coleções Avançadas**
+- [Generics.java](src/aula12/Generics.java)
+
+### 13. **Aula 13 – Java API Essentials**
+- [Datas.java](src/aula13/Datas.java)
+- [Scanner.java](src/aula13/Scanner.java)
+
+### 14. **Aula 14 – Testes Unitários**
+- [Testes.java](src/aula14/Testes.java)
+
+### 15. **Aula 15 – Preparação para Spring Boot**
+- [IntroducaoSpring.java](src/aula15/IntroducaoSpring.java)
+
 
 ---
 
