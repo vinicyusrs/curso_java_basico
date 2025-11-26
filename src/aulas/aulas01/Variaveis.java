@@ -10,7 +10,12 @@ public class Variaveis {
 
         // boolean: armazena valores verdadeiro ou falso
         boolean ativo = true;
-
+        
+        if(ativo == true) {
+        	// fazer algo
+        }
+        
+        
         // byte: inteiro curto (-128 a 127)
         byte idadeByte = 25;
 
@@ -41,8 +46,10 @@ public class Variaveis {
         String nome = "Vinícius Rodrigues";
 
         // Arrays: estrutura para armazenar vários valores do mesmo tipo
-        int[] numeros = { 1, 2, 3, 4, 5 };
+        int[] numeros = { 1, 2, 3, 4, 343 };
 
+        
+        System.out.println(numeros[4]);
         // Wrappers: versões "objeto" dos tipos primitivos
         Integer idade = 30;
         Double altura = 1.75;
